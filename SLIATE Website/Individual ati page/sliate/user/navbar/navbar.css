@@ -1,0 +1,64 @@
+
+.institute-header {
+    background-color: #001F54; /* Dark maroon background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.institute-header .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.institute-header h1 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.institute-header h5 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.institute-header p {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Gold on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Light translucent background */
+    border-radius: 100%;
+  }
+
+
+
+
+
+
+
+
+.navbar-divider {
+    border-right: 1px solid rgba(255, 255, 255, 0.3); /* White with 30% transparency */
+    height: 40px; /* Adjust height based on navbar */
+    margin: 0 auto; /* Center the divider */
+    width: 100%; /* Adjust width as needed */
+    font-weight:bold; /* Bold text */
+    font-size: 16px; /* Adjust font size */
+    display: flex; /* Flexbox for centering items */
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+   
+  }
+  .nav-item{
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+
+  }

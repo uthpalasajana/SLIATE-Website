@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    background-image: url('../images/about.jpg'); /* Replace with your banner image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+.header h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.3rem;
+}
+
+/* Content Section */
+.content-section {
+    background-color: #f9f9f9; /* Light gray background for better contrast */
+    color: #034078; /* Dark blue text for a professional look */
+    padding: 50px 30px; /* Add generous padding */
+    border-radius: 10px; /* Rounded corners for a modern appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align content */
+    margin-top: 20px; /* Add space above the section */
+}
+
+.content-section h2 {
+    font-size: 2.5rem; /* Larger font for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #002855; /* Slightly darker shade for emphasis */
+    font-weight: bold; /* Bold text for emphasis */
+    text-transform: uppercase; /* Uppercase for style */
+}
+
+.content-section p {
+    font-size: 1.2rem; /* Slightly larger text for readability */
+    line-height: 1.8; /* Increase line height for readability */
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 700px; /* Limit paragraph width for better reading */
+    color: #053061; /* Slightly lighter blue for a balanced look */
+}
+
+.content-section::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #034078; /* Decorative line */
+    margin: 0 auto 20px auto; /* Center the line and add spacing */
+    border-radius: 2px; /* Rounded edges for style */
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px 0;
+    background-color: #FFFFFF;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Video Section */
+.video-section {
+    background-color: #F1F1F1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.video-section h2 {
+    color: #034078;
+    margin-bottom: 20px;
+}
+
+.video-section iframe {
+    max-width: 100%;
+    height: 350px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0A1128;
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Blue-themed styling for Core Values */
+.core-values {
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40PX;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.core-values h3 {
+    color: #0056b3; /* Dark blue heading */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.core-values ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.core-values ul li {
+    font-size: 1.2rem;
+    color: #003366; /* Deep blue text */
+    background: #e6f2ff; /* Slightly lighter blue for contrast */
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.core-values ul li:hover {
+    background-color: #cce0ff; /* Slightly darker blue on hover */
+}
+
+.stats {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 40px 0;
+    margin-top: 20px;
+    border-top: 2px solid #cce0ff; /* Top border for separation */
+    border-bottom: 2px solid #cce0ff; /* Bottom border for separation */
+}
+
+.stats .stat-box {
+    background-color: #e6f2ff; /* Slightly lighter blue background */
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0; /* Add spacing between boxes */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.stats .stat-box h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0056b3; /* Dark blue for numbers */
+    margin-bottom: 10px;
+}
+
+.stats .stat-box p {
+    font-size: 1.2rem;
+    color: #003366; /* Deep blue for text */
+}
+
+.stats .stat-box:hover {
+    background-color: #cce0ff; /* Darker blue background on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366; /* Deep blue footer */
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}

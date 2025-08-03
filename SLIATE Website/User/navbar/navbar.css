@@ -1,0 +1,115 @@
+/* Institute Header */
+.institute-header {
+  background-color: #001F54; /* Dark maroon background */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.institute-header .content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.institute-header p {
+  font-size: 14px;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px; /* Add space between links */
+  transition: color 0.3s, background-color 0.3s; /* Smooth hover effects */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Default link color */
+  text-align: center; /* Align text to center */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Gold on hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Light translucent background */
+  border-radius: 5px;
+}
+
+/* Navbar Divider */
+.navbar-divider {
+  border-right: 1px solid rgba(255, 255, 255, 0.3); /* White with 30% transparency */
+  height: 40px; /* Adjust height based on navbar */
+  margin: 0 auto; /* Center the divider */
+  width: auto; /* Adjust width as needed */
+  display: flex; /* Flexbox for centering items */
+  align-items: center; /* Vertical centering */
+  justify-content: center; /* Horizontal centering */
+  padding: 0 10px;
+}
+
+/* Dropdown Styling */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu {
+  background-color: #001F54;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #003580;
+  color: #ffffff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+      margin: 10px 0; /* Better spacing for small screens */
+      text-align: center;
+  }
+
+  .navbar-divider {
+      border-right: none; /* Remove divider for small screens */
+      padding: 10px 0;
+  }
+
+  .institute-header {
+      padding: 15px 5px;
+  }
+
+  .institute-header p {
+      font-size: 12px;
+  }
+
+  .navbar-brand img {
+      width: 80px; /* Smaller logo for small screens */
+      height: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .institute-header p {
+      font-size: 10px;
+  }
+
+  .navbar-brand img {
+      width: 60px; /* Further reduce logo size */
+      height: 60px;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 14px; /* Smaller font size */
+  }
+}

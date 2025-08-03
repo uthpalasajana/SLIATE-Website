@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #0A1128;
+}
+
+h2 {
+    color: #1282A2;
+}
+
+.category-selector {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    background-color: #1282A2;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+.category-btn.active {
+    background-color: #0A1128;
+}
+
+.category-btn:hover {
+    background-color: #034078;
+}
+
+.downloads-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.downloads-table th, .downloads-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.downloads-table th {
+    background-color: #0A1128;
+    color: white;
+}
+
+.downloads-table td a {
+    background-color: #1282A2;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.downloads-table td a:hover {
+    background-color: #034078;
+}

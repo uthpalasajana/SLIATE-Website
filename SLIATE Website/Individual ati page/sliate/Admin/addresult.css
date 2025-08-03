@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #0A1128; /* Dark Blue */
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+/* Notification Message */
+.message {
+    text-align: center;
+    color: #1282A2; /* Light Blue */
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background-color: #e9f7ef;
+    border: 1px solid #d4edda;
+    border-radius: 8px;
+}
+
+/* Form Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Forms */
+form {
+    background-color: #f9fafb;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #001F54; /* Blue */
+}
+
+input, select, button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    border: 1px solid #dcdfe3;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #034078; /* Medium Blue */
+    outline: none;
+}
+
+button {
+    background-color: #034078; /* Medium Blue */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #001F54; /* Dark Blue */
+}
+
+/* Results Table */
+.results-container {
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #0A1128; /* Dark Blue */
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+td {
+    font-size: 0.9rem;
+}
+
+tr:hover {
+    background-color: #f1f3f5;
+}
+
+/* Action Column */
+td.action-column {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Download Button */
+.download-btn {
+    background-color: #1282A2; /* Light Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+    background-color: #0A1128; /* Dark Blue */
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:active {
+    background-color: #001F54; /* Darker Blue */
+    transform: scale(1);
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #e74c3c;
+    
+   
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn:active {
+    background-color: #a93226;
+    transform: scale(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+
+    input, select, button {
+        font-size: 0.9rem;
+    }
+}

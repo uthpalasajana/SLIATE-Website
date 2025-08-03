@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ /*   background-image: url('../images/ati2.jpg'); /* Replace with your image file */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+}
+
+
+
+.cardcontainer
+{
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.club-card {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+}
+
+/* Custom Colors for Cards */
+.activity-card { background-color: #28a745; } /* Green */
+.sports-card { background-color: #007bff; }   /* Blue */
+.international-card { background-color: #8B0000; } /* Maroon */
+.religious-card { background-color: #8a2be2; } /* Purple */
+
+/* Image Styling */
+.img-container {
+    overflow: hidden;
+    height: 100%;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-section {
+    background-color: #1282A2; /* Light grey background */
+    padding: 30px 0;
+}
+
+.icon-box {
+    text-align: center;
+    color: #444; /* Dark grey color for icons and text */
+}
+
+.icon-box i {
+    font-size: 40px; /* Larger icon size */
+    margin-bottom: 10px;
+}
+
+.icon-box p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content-section {
+    padding: 30px 15px;
+}
+h2 {
+    font-weight: bold;
+    color: #1f5b9b;
+}
+.read-more-btn {
+    margin-top: 15px;
+}
+
+
+
+
+.product-section {
+    padding: 60px 20px;
+}
+.product-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f1f1f;
+}
+.sub-title {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+}
+.description {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.btn-decorate {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.btn-decorate:hover {
+    background-color: #333;
+    color: #fff;
+}
+.img-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
